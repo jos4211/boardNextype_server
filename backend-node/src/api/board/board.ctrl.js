@@ -3,7 +3,7 @@ import Boards from '../../models/board';
 
 // 게시물 리스트 뽑아오기
 export const boardList = async (ctx) => {
-  console.log('ddddddddddd');
+  console.log('리스트 뽑기 호출');
 
   const board = await Boards.findByAllPost();
 
